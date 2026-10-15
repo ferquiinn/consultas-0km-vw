@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consultas comerciales sobre vehículos Volkswagen 0 km. Consultá versiones, disponibilidad y opciones de financiación por WhatsApp.">
+  <title>Consultas 0Km VW | Asesoramiento personalizado</title>
+  <style>
+    :root { --navy:#071b33; --blue:#0b4b83; --light:#f3f6fa; --ink:#172334; --muted:#64748b; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:var(--white); line-height:1.55; }
+    a { color:inherit; }
+    .topbar { background:var(--navy); color:#fff; padding:11px 5%; font-size:13px; text-align:center; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:18px; padding:20px 5%; border-bottom:1px solid #e5eaf0; }
+    .brand { font-size:21px; font-weight:800; letter-spacing:.2px; color:var(--navy); }
+    .brand span { color:var(--blue); }
+    nav { display:flex; gap:22px; align-items:center; flex-wrap:wrap; }
+    nav a { text-decoration:none; font-size:14px; font-weight:700; }
+    .hero { background:linear-gradient(120deg,rgba(5,23,44,.96),rgba(11,75,131,.88)), radial-gradient(circle at 85% 20%,#6e9cc5,transparent 35%); color:#fff; padding:78px 5% 72px; }
+    .hero-inner { max-width:1100px; margin:auto; display:grid; grid-template-columns:1.15fr .85fr; gap:40px; align-items:center; }
+    .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:12px; font-weight:800; color:#b8d9f8; }
+    h1 { font-size:clamp(36px,5vw,58px); line-height:1.05; margin:16px 0; letter-spacing:-1.5px; }
+    .hero p { max-width:590px; color:#e1eaf5; font-size:18px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; text-decoration:none; border-radius:8px; padding:13px 19px; font-weight:800; }
+    .btn-primary { background:#fff; color:var(--navy); }
+    .btn-outline { border:1px solid #c5d8ea; color:#fff; }
+    .hero-panel { border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.09); padding:26px; border-radius:18px; backdrop-filter:blur(4px); }
+    .hero-panel strong { font-size:19px; display:block; margin-bottom:10px; }
+    .hero-panel ul { margin:0; padding-left:20px; color:#e5edf7; }
+    section { padding:62px 5%; }
+    .container { max-width:1100px; margin:auto; }
+    .section-heading { text-align:center; max-width:700px; margin:0 auto 32px; }
+    .section-heading h2 { color:var(--navy); font-size:clamp(27px,3vw,38px); margin:0 0 10px; }
+    .section-heading p { color:var(--muted); margin:0; }
+    .models { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .model { border:1px solid #e1e8f0; border-radius:14px; padding:22px; background:#fff; box-shadow:0 8px 25px rgba(12,35,60,.045); }
+    .model-icon { height:105px; border-radius:10px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#e8eef5,#cbd8e6); color:var(--navy); font-size:40px; margin-bottom:18px; }
+    .model h3 { margin:0 0 6px; color:var(--navy); font-size:21px; }
+    .model p { margin:0 0 17px; color:var(--muted); font-size:14px; min-height:44px; }
+    .model a { color:var(--blue); font-weight:800; text-decoration:none; }
+    .benefits { background:var(--light); }
+    .benefit-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+    .benefit { background:#fff; border-radius:12px; padding:22px; }
+    .benefit b { display:block; color:var(--navy); margin-bottom:7px; }
+    .benefit p { color:var(--muted); font-size:14px; margin:0; }
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:35px; align-items:start; }
+    .contact-copy h2 { font-size:34px; line-height:1.1; color:var(--navy); margin-top:0; }
+    .contact-copy p { color:var(--muted); }
+    form { background:var(--light); border-radius:16px; padding:24px; }
+    label { display:block; font-size:13px; font-weight:800; margin:12px 0 5px; }
+    input,select,textarea { width:100%; padding:12px; border:1px solid #cbd5e1; border-radius:8px; font:inherit; background:#fff; }
+    textarea { min-height:90px; resize:vertical; }
+    button { border:0; cursor:pointer; font:inherit; width:100%; margin-top:17px; }
+    .form-note { font-size:12px; color:var(--muted); margin:12px 0 0; }
+    footer { background:var(--navy); color:#d7e3f0; padding:28px 5%; font-size:12px; text-align:center; }
+    .wa-float { position:fixed; right:18px; bottom:18px; z-index:10; background:#168c50; color:white; text-decoration:none; border-radius:999px; padding:13px 18px; font-weight:800; box-shadow:0 6px 20px #0003; }
+    @media (max-width:760px) {
+      header { align-items:flex-start; flex-direction:column; }
+      nav { gap:13px; }
+      .hero { padding:55px 5%; }
+      .hero-inner,.contact-grid { grid-template-columns:1fr; }
+      .models,.benefit-grid { grid-template-columns:1fr; }
+      .model p { min-height:0; }
+      section { padding:48px 5%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Asesoramiento personalizado para tu próximo Volkswagen 0 km</div>
+  <header>
+    <div class="brand">Consultas <span>0Km VW</span></div>
+    <nav aria-label="Navegación principal">
+      <a href="#modelos">Modelos</a>
+      <a href="#beneficios">Asesoramiento</a>
+      <a href="#contacto">Consultar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Tu próximo vehículo empieza con una consulta</div>
+          <h1>Encontrá tu próximo Volkswagen 0 km.</h1>
+          <p>Consultá por modelos, versiones, disponibilidad y alternativas comerciales. Te ayudo a encontrar una opción acorde a tus necesidades personales o de trabajo.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#contacto">Solicitar asesoramiento</a>
+            <a class="btn btn-outline" href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20un%20Volkswagen%200%20km." target="_blank" rel="noopener">Consultar por WhatsApp</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <strong>¿Qué necesitás consultar?</strong>
+          <ul>
+            <li>Versiones y equipamiento</li>
+            <li>Disponibilidad de unidades</li>
+            <li>Opciones de financiación, sujetas a condiciones vigentes</li>
+            <li>Alternativas para uso particular, profesional o agropecuario</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="modelos">
+      <div class="container">
+        <div class="section-heading">
+          <h2>¿Qué modelo te interesa?</h2>
+          <p>Elegí una categoría y enviá tu consulta. La disponibilidad de modelos y versiones debe confirmarse al momento de cotizar.</p>
+        </div>
+        <div class="models">
+          <article class="model"><div class="model-icon" aria-hidden="true">▰</div><h3>Amarok</h3><p>Una opción para quienes necesitan una pickup para trabajar y viajar.</p><a href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20Volkswagen%20Amarok%200%20km." target="_blank" rel="noopener">Consultar Amarok →</a></article>
+          <article class="model"><div class="model-icon" aria-hidden="true">◈</div><h3>Taos</h3><p>Consultá por versiones, equipamiento y disponibilidad de este SUV.</p><a href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20Volkswagen%20Taos%200%20km." target="_blank" rel="noopener">Consultar Taos →</a></article>
+          <article class="model"><div class="model-icon" aria-hidden="true">◇</div><h3>T-Cross</h3><p>Conocé las alternativas disponibles para tu próximo SUV compacto.</p><a href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20Volkswagen%20T-Cross%200%20km." target="_blank" rel="noopener">Consultar T-Cross →</a></article>
+          <article class="model"><div class="model-icon" aria-hidden="true">▱</div><h3>Nivus</h3><p>Pedí información sobre versiones, equipamiento y opciones comerciales.</p><a href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20Volkswagen%20Nivus%200%20km." target="_blank" rel="noopener">Consultar Nivus →</a></article>
+          <article class="model"><div class="model-icon" aria-hidden="true">▰</div><h3>Polo</h3><p>Consultá por alternativas de este vehículo compacto.</p><a href="https://wa.me/542284590604?text=Hola%2C%20quiero%20consultar%20por%20Volkswagen%20Polo%200%20km." target="_blank" rel="noopener">Consultar Polo →</a></article>
+          <article class="model"><div class="model-icon" aria-hidden="true">＋</div><h3>Otro modelo</h3><p>¿Buscás otro Volkswagen? Contame cuál y te ayudo a consultar.</p><a href="#contacto">Hacer una consulta →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="benefits">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Asesoramiento a tu medida</h2>
+          <p>Una consulta sencilla para orientarte antes de tomar una decisión.</p>
+        </div>
+        <div class="benefit-grid">
+          <div class="benefit"><b>Información clara</b><p>Consultá por versiones, equipamiento y disponibilidad actualizada.</p></div>
+          <div class="benefit"><b>Alternativas comerciales</b><p>Pedí información sobre opciones de pago o financiación vigentes, según evaluación y condiciones aplicables.</p></div>
+          <div class="benefit"><b>Atención por WhatsApp</b><p>Contactate directamente para explicar qué vehículo estás buscando.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <div class="eyebrow" style="color:#0b4b83">Hablemos</div>
+          <h2>Solicitá tu cotización.</h2>
+          <p>Completá los datos y se abrirá WhatsApp con tu consulta preparada para enviar. No se guarda información en esta página.</p>
+          <p><strong>WhatsApp:</strong> 2284 590604</p>
+          <a class="btn btn-primary" style="background:#168c50;color:white" href="https://wa.me/542284590604" target="_blank" rel="noopener">Abrir WhatsApp</a>
+        </div>
+        <form id="consulta-form">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" autocomplete="name" required placeholder="Tu nombre">
+          <label for="localidad">Localidad</label>
+          <input id="localidad" name="localidad" autocomplete="address-level2" placeholder="Ej.: Chivilcoy">
+          <label for="modelo">Modelo de interés</label>
+          <select id="modelo" name="modelo" required>
+            <option value="">Elegí un modelo</option><option>Amarok</option><option>Taos</option><option>T-Cross</option><option>Nivus</option><option>Polo</option><option>Otro modelo</option>
+          </select>
+          <label for="pago">¿Qué querés consultar?</label>
+          <select id="pago" name="pago"><option>Precio y disponibilidad</option><option>Financiación</option><option>Entrega de usado</option><option>Compra para empresa o actividad agropecuaria</option><option>Otra consulta</option></select>
+          <label for="mensaje">Mensaje (opcional)</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Contame qué vehículo estás buscando"></textarea>
+          <button class="btn btn-primary" type="submit">Preparar consulta por WhatsApp</button>
+          <p class="form-note">Al continuar, se abrirá WhatsApp para que revises y envíes el mensaje.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Consultas 0Km VW</strong> · Atención comercial independiente.</p>
+    <p>Este sitio no es el sitio oficial de Volkswagen Argentina ni implica representación oficial. Marca y nombres de modelos pertenecen a sus respectivos titulares. Precios, versiones, disponibilidad y condiciones deben confirmarse antes de contratar.</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/542284590604?text=Hola%2C%20vengo%20desde%20Consultas%200Km%20VW." target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">WhatsApp</a>
+
+  <script>
+    document.getElementById('consulta-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const nombre = document.getElementById('nombre').value.trim();
+      const localidad = document.getElementById('localidad').value.trim();
+      const modelo = document.getElementById('modelo').value;
+      const pago = document.getElementById('pago').value;
+      const mensaje = document.getElementById('mensaje').value.trim();
+      const texto = `Hola, soy ${nombre}.${localidad ? ' Soy de ' + localidad + '.' : ''} Quiero consultar por Volkswagen ${modelo} 0 km. Motivo: ${pago}.${mensaje ? ' Mensaje: ' + mensaje : ''}`;
+      window.open('https://wa.me/542284590604?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+    });
+  </script>
+</body>
+</html>
